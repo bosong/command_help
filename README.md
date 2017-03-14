@@ -1,9 +1,9 @@
 # command_help  
 
     command help for zsh  命令行笔记   
-    >command_help_git.txt git命令笔记   
-    command_help_screen screen相关命令笔记   
-    command_help_pod.txt   ios 开发pod 命令笔记   
+>command_help_git.txt git命令笔记   
+command_help_screen screen相关命令笔记   
+command_help_pod.txt   ios 开发pod 命令笔记   
 
 # start  
  
