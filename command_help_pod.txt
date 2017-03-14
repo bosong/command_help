@@ -1,0 +1,10 @@
+
+###########pod 验证过程#########################
+
+$ pod lib lint --verbose --sources='http://你的库仓库地址/SPEC/AMspecs.git,https://github.com/CocoaPods/Specs.git' --allow-warnings
+
+$ git tag -m "first release" "0.1.0"   #pod 打tag*
+
+$ git push --tags     #推送tag到远端仓库
+
+$ pod repo push AMspecs TestLibrary.podspec  --allow-warnings  --verbose

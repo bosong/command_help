@@ -1,0 +1,65 @@
+#########git常用命令################################################
+
+###Create a new repository o#######################
+touch README.md //创建一个文件。文件名叫：README.md;
+
+git init
+git add README.md    //这里是添加README这个文件；
+git commit -m "first commit"
+git remote add origin https://github.com/songbo/test.git
+git push -u origin master
+
+###Push an existing repository #####################
+
+git remote add origin https://github.com/songbo/test.git
+git push -u origin master
+
+
+###git branch常用命令################################
+
+//1.1查看远程分支
+$ git branch -a  
+* br-2.1.2.2   分支1
+  master       主分支
+  test          分支2
+前面带*号的代表你当前工作目录所处的分支
+//1.2查看本地分支
+$ git branch  
+
+//1.3创建分支
+$ git branch branchname  
+
+//1.4本地创建并切换到新分支  如果有就切换 没哟就创建
+$ git checkout -b branchname  
+
+//1.5推送分支 到远程 
+$ git push origin branchname  
+
+//1.6删除本地test分支  
+$ git br -d test  or git branch -d test  
+
+//1.7 删除远程分支 两种方法
+删除远程分支  
+$ git branch -r -d origin/branch-name  
+$ git push origin :branch-name  
+
+
+###git tag   常用命令##############################
+
+//2.1查看tag
+git tag -l //本地 
+git tag -a //远程
+//2.2创建tag
+git tag -a 0.0.1 -m "注释"  
+
+//2.3 tag推送到远程
+git push origin 0.0.1  
+
+//2.4删除本地tag
+git tag -d 0.0.1  
+
+//2.5删除远程tag
+git push origin :0.0.1   
+
+//也可以这样  
+git push origin --delete tag 0.0.1  
