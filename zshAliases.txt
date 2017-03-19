@@ -1,0 +1,42 @@
+# Example zsh aliases
+
+ alias zshconfig="vim ~/.zshrc"
+ alias ohmyzsh="vim  ~/.oh-my-zsh"
+ alias pod_update="pod update --verbose --no-repo-update"
+ alias pod_install="pod install --verbose --no-repo-update"
+ 
+ #work app files
+
+ alias app_dir="cd /Users/songbo/Documents/B_work/ios/"
+ alias app_nodejs="cd /Users/songbo/Documents/B_work/nodejs/"
+ alias app_ection="cd /Users/songbo/Documents/B_work/ection/"
+
+ # open files
+ alias open_app="cd /Users/songbo/Documents/B_work/ios/"
+ alias open_nodejs="cd /Users/songbo/Documents/B_work/nodejs/"
+ alias open_ection="cd /Users/songbo/Documents/B_work/ection/"
+
+ # command_help
+
+ alias command_help='cd /Users/songbo/Documents/B_Work/command_help'
+ alias command_help_git='vim /Users/songbo/Documents/B_Work/command_help/command_help_git.txt'
+ alias command_help_screen='vim /Users/songbo/Documents/B_Work/command_help/command_help_screen.txt'
+ alias command_help_pod='vim /Users/songbo/Documents/B_Work/command_help/command_help_pod.txt'
+ alias command_history='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
+ # files_option
+ alias la='ls -a'
+ alias vi='vim'
+ alias javac="javac -J-Dfile.encoding=utf8"
+ alias grep="grep --color=auto"
+ alias -s html=mate   # 在命令行直接输入后缀为 html文件名，会在 TextMate 中打开
+ alias -s rb=vi    # 在命令行直接输入 ruby 文件，会在 TextMate 中打开
+ alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
+ alias -s js=vi
+ alias -s c=vi
+ alias -s java=vi
+ alias -s txt=vi
+ alias -s gz='tar -xzvf'
+ alias -s tgz='tar -xzvf'
+ alias -s zip='unzip'
+ alias -s bz2='tar -xjvf'
+
