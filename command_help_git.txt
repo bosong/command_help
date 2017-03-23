@@ -63,3 +63,34 @@ git push origin :0.0.1
 
 //也可以这样  
 git push origin --delete tag 0.0.1  
+   
+  
+
+7 ###git reset 回滚与撤销 变基 常用命令##############################$ 
+
+
+git commit --amend
+重做上一次commit，并包括指定文件的新变化。
+合并缓存区的修改和最近的一次commit，并尝试重新commit。可以理解为，用一个全新的commit整个替换了最近一次commit。
+如果缓存区没有内容, 可以用来编辑上一次的commit描述。
+不要对一个公共的commit使用amend。如果amend了一个被其他开发者使用的commit, 可能会严重影响其他开发者。
+
+git checkout
+git checkout -- <file>  # 丢弃工作区的修改
+git reset HEAD <file>  # 撤销暂存区的修改，重新放回工作区
+git rebase
+重新定义分支的起点，也就是将当前分支从一个commit移动到另一个commit作为起点。
+分支上的老commit将被删除,保持了项目历史的干净。建议不要在一个公共的分支中使用rebase。
+
+git rebase <base>   # 将<base>做为当前分支的新起点, <base>可以是任何一种commit引用（如ID,branch name,tag,HEAD~N等）。
+git rebase -i <base>    # 交互式地将<base>做为当前分支的新起点，过程中可以对要rebase的commit做一定的修改。
+git reset
+用来撤销本地的修改。建议不要reset一个公共的项目历史。
+
+git reset  # 回退版本库到上一个commit的状态, 工作区不变。
+git reset <commit>  # 回退版本库到指定的<commit>,  工作区不变。
+git reset --hard  # 回退版本库和工作区到上一次commit的状态。 --hard表明覆盖所有的修改,  而且是不可逆的, 因此使用之前要谨慎。
+git reset --hard <commit>  # 回退版本库和工作区到指定的<commit>。
+回退到上个版本：git reset --hard HEAD^ git reset --hard HEAD~
+回退到上上个版本：git reset --hard HEAD^^ git reset --hard HEAD~1
+以此类推。
