@@ -27,9 +27,9 @@ alias command_help_pod='vim /Users/song/Documents/B_Work/command_help/command_he
 
 # test  
   
->终端输入 command_help 对应 进入 command_help 所在目录  
-终端输入 command_help_git 对应 vim打开 command_help_git 文件 
-终端输入 command_help_screen 对应 vim打开 command_help_screen 文件  
+>终端输入command_help 对应 进入 command_help 所在目录  
+终端输入 command_help_git 对应 vim打开 command_help_git 文件    
+终端输入 command_help_screen 对应 vim打开 command_help_screen 文件    
   
 # other
      
