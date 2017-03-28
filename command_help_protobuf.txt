@@ -1,0 +1,61 @@
+###probuf 命令
+protoc 
+#插件， probuf 3不需要
+ --plugin=/usr/local/bin/protoc-gen-objc   
+ ## objc 文件编译文件输出路径
+ --objc_out=./test/out/objc 
+ ## c 文件编译文件输出路径
+ --cpp_out=./test/out/cpp  
+  ## java 文件编译文件输出路径
+ --java_out=./test/out/java  
+./test/person.proto
+
+##定义 含有嵌套消息字段
+
+ enum UserStatus {        
+
+   OFFLINE = 0;     
+   ONLINE = 1;
+ }
+ message UserInfo {
+  required int64 acctID = 1; 
+  required string name = 2;    
+  required UserStatus status = 3;  
+ }
+ message LogonRespMessage {   
+  required LoginResult logonResult = 1;
+  required UserInfo userInfo = 2;
+  }
+
+  #枚举
+  enum OperationCode {
+  LOGON_REQ_CODE = 101;   
+  LOGOUT_REQ_CODE = 102;
+  RETRIEVE_BUDDIES_REQ_CODE = 103;
+  LOGON_RESP_CODE = 1001;
+  LOGOUT_RESP_CODE = 1002;
+  RETRIEVE_BUDDIES_RESP_CODE = 1003;
+}
+
+ enum UserStatus {  
+
+   OFFLINE = 0; //表示处于离线状态的用户 
+   ONLINE = 1;  //表示处于在线状态的用户
+ }
+ message UserInfo {
+  required int64 acctID = 1;
+  required string name = 2;   
+  required UserStatus status = 3;
+  }
+
+
+  repeated int32 samples = 4 [packed=true]  # 数组
+
+  optional int32 result_per_page = 3 [default = 10]  #可选
+
+  package jianshu;
+message PBUser {
+required string userId = 1;
+optional string nick = 2;
+optional string avatar = 3;
+}
