@@ -18,7 +18,7 @@ alias command_help_git='vim command_help_git.txt文件的路径'
 alias command_help_screen='vim command_help_screen.txt文件的路径'  
 alias command_help_pod='vim command_help_pod.txt文件的路径'  
   
-**5**.**例如**:**command_help** 库我放在 **/Users/songbo/Documents/B_Work/** 目录下           
+**5**.**例如**:**command_help** 库我放在 **/Users/song/Documents/B_Work/** 目录下           
   
 >alias command_help='cd /Users/song/Documents/B_Work/command_help'           
 alias command_help_git='vim /Users/song/Documents/B_Work/command_help/command_help_git.txt'  
