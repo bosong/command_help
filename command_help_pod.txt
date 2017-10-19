@@ -1,3 +1,42 @@
+*************************本文为pod 库 相关命令笔记***************************
+
+
+##############pod 私有库-仓库spec 创建过程#######################
+1.首先理解仓库目录结构
+├── Specs
+    └── [SPEC_NAME]
+            └── [VERSION]
+                        └── [SPEC_NAME].podspec
+
+2.在pod中添加一个仓库
+ # pod repo add [Private Repo Name] [GitHub HTTPS clone URL]
+ $ pod repo add WTSpecs https://coding.net/wtlucky/WTSpecs.git
+
+
+#############pod 私有库 lib 壳工程 创建过程############################
+1 创建 私有库 壳工程
+pod lib create libtTestName$ 
+2.查看目录结构
+$ tree PodTestLibrary -L 2
+PodTestLibrary
+├── Example                                  #demo APP
+│   ├── PodTestLibrary
+│   ├── PodTestLibrary.xcodeproj
+│   ├── PodTestLibrary.xcworkspace
+│   ├── Podfile                              #demo APP 的依赖描述文件
+│   ├── Podfile.lock
+│   ├── Pods                                  #demo APP 的依赖文件
+│   └── Tests
+├── LICENSE                               #开源协议 默认MIT
+├── Pod                                       #组件的目录
+│   ├── Assets                            #资源文件
+│   └── Classes                              #类文件
+├── PodTestLibrary.podspec           #第三步要创建的podspec文件
+└── README.md                                #markdown格式的README
+ 
+ 9 directories, 5 files
+
+
 
 ###########pod 验证过程#########################
 
@@ -8,3 +47,51 @@ $ git tag -m "first release" "0.1.0"   #pod 打tag*
 $ git push --tags     #推送tag到远端仓库
 
 $ pod repo push AMspecs TestLibrary.podspec  --allow-warnings  --verbose
+
+$ pod repo push benemind-diffusion-spec-emspecs --verbose --allow-warnings   #在当前库目录下
+$ pod repo push EMSpecs --verbose --use-libraries --allow-warnings     #使用本地库
+
+
+##########pod 缓存命令########################
+
+$ pod cache list  ##列出pod 缓存列表
+
+$ pod cache clean libtTestName  ##清楚某库缓存
+
+##########podenv安转###########1.先安转rbenv#########
+$ brew install rbenv   #安装ruby 环境 管理 ruby版本  默认是使用系统版本 有权限问题 在此我们安转其他ruby版本
+$ type ruby  #查看ruby 版本  与位置
+$ rbenv     #查看命令 并验证是否可用
+$ rbenv install --list  #查看ruby可安装版本
+$ rbenv install 2.4.1   #从list中选择一个版本安装例如2.4.1
+$ which ruby   #查看 ruby 位置
+$ brew info rbenv  #查看安转rbenv 时提示信息
+$ vi .zshrc #配置命令行环境  加入一段echo 信息 并重启命令行
+
+$ rbenv  #查看命令
+$ rbenv versions   #查看当前可使用的ruby版本列表
+
+$ rbenv global 2.4.1  # 配置全局使用ruby2.4.1 版本
+$ rbenv shell 2.4.1   # 配置命令使用版本
+ which ruby     #验证使用版本位置
+ ruby --version  #验证使用版本
+ 
+######################安装podenv##############################################
+ which pod       # 查找pod 安转位置
+
+ brew install podenv #安转podenv
+ brew install kylef/formulae/podenv
+ brew info eodenv 
+ rm '/local/bin/pod'  #移除pod
+ brew link --overwrite podenv  # link podenv 重新linkt
+podenv 
+podenv versions   
+podenv install --list 
+podenv install 1.2.0        
+
+#######################安装cocoapods-dependencies##################################
+which gem    查看gem 安转位置gem 是一个用于对 Ruby组件进行打包的 Ruby 打包系统
+gem install cocoapods-dependencies   安转pod依赖查看小工具
+pod dependencies     查看当前目录下项目依赖
+pod dependencies | grep UIC   # 查找命令 匹配 UIC
+

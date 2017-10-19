@@ -1,4 +1,4 @@
-#########git常用命令################################################
+########git常用命令################################################
 
 ###Create a new repository o#######################
 touch README.md //创建一个文件。文件名叫：README.md;
@@ -54,6 +54,8 @@ git tag -a 0.0.1 -m "注释"
 
 //2.3 tag推送到远程
 git push origin 0.0.1  
+//推送所有tags
+git push origin --tags
 
 //2.4删除本地tag
 git tag -d 0.0.1  
@@ -63,7 +65,6 @@ git push origin :0.0.1
 
 //也可以这样  
 git push origin --delete tag 0.0.1  
-   
   
 
 7 ###git reset 回滚与撤销 变基 常用命令##############################$ 
