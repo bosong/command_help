@@ -1,0 +1,166 @@
+*************************本文为python 相关命令笔记***************************
+
+ 
+######################安装pyenv########类似其他语言env 安装#####################################
+
+brew install pyenv #安转pyenv
+
+pyenv versions   
+pyenv install --list 
+pyenv install 1.2.0        
+
+#pyenv的使用
+#查看已经安装的python版本
+$ pyenv versions
+
+#查看当前使用的python版本
+$ pyenv version
+
+#安装一个python版本如3.5.2
+$ pyenv install 3.5.2
+
+#卸载一个python版本如3.5.2
+$ pyenv uninstall  3.5.2
+
+#设置全局python版本如3.5.2
+$ pyenv global 3.5.2
+
+#//很多人不推荐这么做,说是mac操作系统的文件也会调用原生的2.7的python版本
+//这种说法感觉有点:恐惧来自未知的感觉.持保留意见
+#设置目录级python版本如3.5.2
+$ pyenv local 3.5.2
+
+#为当前shell会话设置python版本如3.5.2
+$ pyenv shell 3.5.2
+
+#如果在指定的文件目录下限制特定的python版本需要以下操作:
+
+$ cd + 文件路径
+$ pyenv local 3.5.2 
+
+#如何查看当前设定版本
+ $ pyenv versions
+ * system (set by /usr/local/var/pyenv/version)
+    2.7.8
+    2.7.10
+  #当前设定版本前会有星号标识
+  
+#如何取消当前设定版本
+$ pyenv local --unset 
+  #其他两种命令同样参数
+
+
+######################pip 相关命令#######################
+
+
+###模块(包)管理工具pip优点
+
+##版本控制
+##依赖处理
+pip文档：https://pip.pypa.io/en/latest/
+
+###安装pip
+##方法一：
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+##方法二：
+sudo easy_install pip
+
+##升级pip
+pip install -U pip
+
+#3帮助命令，可以了解pip的基本命令
+pip --help
+
+##列出已安装的包
+pip freeze
+or
+pip list
+
+pip freeze | wc -l #统计安装的模块
+
+##导出模块到指定的文件requirements.txt
+pip freeze > <目录>/requirements.txt
+
+##安装(install)模块
+#1.在线安装
+pip install <模块> #一个具体的Python模块
+pip install -r requirements.txt #逐行安装模块
+pip install <模块> --index-url http://pypi.douban.com/simple
+
+#通过使用==、>=、<=、>、< 来指定版本，默认最新版
+
+#2.安装本地模块
+pip install <目录>/<文件名>
+#或
+pip install --use-wheel --no-index --find-links=wheelhouse/ <模块>
+
+#<包名>前有空格
+#可简写为
+
+pip install --no-index -f=<目录>/ <模块>
+
+#卸载模块
+pip uninstall <模块> # 只卸载模块本身，其依赖模块不会卸载
+#或
+pip uninstall -r requirements.txt
+
+#升级包
+pip install -U <包名>
+#或
+pip install <包名> --upgrade
+
+#显示包所在的目录
+pip show -f <包名>
+
+#搜索包
+pip search <搜索关键字>
+
+#查询可升级的包
+pip list -o
+
+#下载包而不安装
+pip install <包名> -d <目录>
+#或
+pip install -d <目录> -r requirements.txt
+
+#打包
+pip wheel <包名>
+
+#更换国内pypi镜像
+#1.国内pypi镜像
+#豆瓣：http://pypi.douban.com/simple
+#中国科学技术大学：http://pypi.mirrors.ustc.edu.cn/simple/
+#2.指定单个安装源
+pip install <包名> -i http://pypi.douban.com/simple
+#
+#3.指定全局安装源
+vi $HOME/.pip/pip.conf
+[global]
+trusted-host=pypi.douban.com
+index-url=http://pypi.douban.com/simple
+
+#发布模块到中央仓库
+#中央仓库：https://pypi.python.org/pypi
+
+1.setuptools模块
+#setup是必须要在setup.py中调用的方法，用来描述整个打包的相关信息。提供一系列API，如find_packages等用来更好地编写setup方法。
+
+#setup.py常用命令：
+
+python setup.py clean #清空环境
+python setup.py register #注册模块信息到pypi中
+python setup.py sdist upload #打包并上传模块
+~/.pypirc 此文件维护pypi服务的账号信息
+
+#2.发布模块示例
+#创建一个project
+#创建一个python package
+#创建一个python文件
+#在项目根目录下创建一个setup.py
+#python setup.py register #项目当前目录注册
+#python setup.py sdist upload
+#到此就将模块发到了中央仓库
+
+
