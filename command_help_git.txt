@@ -127,3 +127,32 @@ git reset --hard <commit>  # 回退版本库和工作区到指定的<commit>。
 回退到上个版本：git reset --hard HEAD^ git reset --hard HEAD~
 回退到上上个版本：git reset --hard HEAD^^ git reset --hard HEAD~1
 以此类推。
+
+###git分支实战 ##############
+###Git鼓励大量使用分支：
+
+##查看分支：
+git branch
+
+##创建分支：
+git branch newFeature
+
+##切换分支：
+git checkout newFeature
+
+##创建+切换分支：
+git checkout -b newFeature
+
+##切换到主分支
+git checkout dev
+
+##合并某分支到dev分支：
+## --no-ff 会保留分支历史
+
+git merge --no-ff -m "merge with no-ff" newFeature
+或者
+git merge newFeature
+
+##删除分支：
+git branch -d newFeature
+
