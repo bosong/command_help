@@ -135,24 +135,27 @@ git reset --hard <commit>  # 回退版本库和工作区到指定的<commit>。
 git branch
 
 ##创建分支：
-git branch newFeature
+git branch <name>
 
 ##切换分支：
-git checkout newFeature
+git checkout <name>
 
 ##创建+切换分支：
-git checkout -b newFeature
+git checkout -b <name>
 
-##切换到主分支
-git checkout dev
-
-##合并某分支到dev分支：
-## --no-ff 会保留分支历史
-
-git merge --no-ff -m "merge with no-ff" newFeature
-或者
-git merge newFeature
+##合并某分支到当前分支：
+git merge <name>
 
 ##删除分支：
-git branch -d newFeature
+git branch -d <name>
+
+
+###git分支实战：分支管理策略 ##################
+##通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。
+
+##如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+
+#下面我们实战一下--no-ff方式的git merge：
+
+#合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并
 
