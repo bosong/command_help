@@ -81,10 +81,11 @@ $ rbenv shell 2.4.1   # 配置命令使用版本
 
  brew install podenv #安转podenv
  brew install kylef/formulae/podenv
- brew info eodenv 
+ brew info podenv 
  rm '/local/bin/pod'  #移除pod
+ sudo gem uninstall cocoapods -v 1.1.3 #卸载gem管理的版本
  brew link --overwrite podenv  # link podenv 重新linkt
-podenv 
+podenv  
 podenv versions   
 podenv install --list 
 podenv install 1.2.0        

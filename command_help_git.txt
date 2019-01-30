@@ -1,4 +1,4 @@
-########git常用命令################################################
+k########git常用命令################################################
 
 ###get a repository#####
 增加远程地址的时候带上密码也是可以的。(推荐)
@@ -158,4 +158,12 @@ git branch -d <name>
 #下面我们实战一下--no-ff方式的git merge：
 
 #合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并
+
+###子模块
+##添加子模块
+git submodule add -b master http://ph.benemind.com/diffusion/129/skhome.git  submodules/SKHome/
+##更新子模块
+git submodule foreach git pull    ##更新
+git submodule foreach 'git checkout -f'  ##强制更新
+
 
