@@ -1,0 +1,33 @@
+*************************本文为Homebrew相关命令笔记***************************
+
+ 
+######################Homebrew相关命令################################
+#Homebrew是一个macOS软件包管理器
+
+简明步骤，照做即可。
+1. 安装
+终端输入自动安装：
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2.卸载
+终端输入自动卸载：
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+3.使用
+常用命令：
+
+brew install gcc    //安装软件
+brew uninstall gcc  //卸载软件
+brew search gcc     //搜索软件
+brew upgrade gcc    //更新软件
+brew list           //查看安装列表
+brew update         //更新Homebrew
+如何用Homebrew安装指定版本的软件?
+1.查看可安装的软件版本
+$ brew search gcc
+==> Searching local taps...
+gcc ✔        gcc@4.9 ✔    gcc@7 ✔      apple-gcc42  gcc@5        gcc@6
+2.指定版本安装
+brew install gcc@7
+
+

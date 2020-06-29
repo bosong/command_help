@@ -10,6 +10,9 @@ protoc
  --java_out=./test/out/java  
 ./test/person.proto
 
+##举例子
+ protoc  --objc_out=./objc_out ./*.proto 
+
 ##定义 含有嵌套消息字段
 
  enum UserStatus {        
