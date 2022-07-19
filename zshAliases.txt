@@ -7,21 +7,23 @@
  
  #work app files
 
- alias app_dir="cd /Users/songbo/Documents/B_work/ios/"
- alias app_nodejs="cd /Users/songbo/Documents/B_work/nodejs/"
- alias app_ection="cd /Users/songbo/Documents/B_work/ection/"
+ alias app_dir="cd /Users/此处替换/Documents/B_work/ios/"
+ alias app_nodejs="cd /Users/此处替换/Documents/B_work/nodejs/"
+ alias app_ection="cd /Users/此处替换/Documents/B_work/ection/"
 
  # open files
- alias open_app="cd /Users/songbo/Documents/B_work/ios/"
- alias open_nodejs="cd /Users/songbo/Documents/B_work/nodejs/"
- alias open_ection="cd /Users/songbo/Documents/B_work/ection/"
+ alias open_app="cd /Users/此处替换/Documents/B_work/ios/"
+ alias open_nodejs="cd /Users/此处替换/Documents/B_work/nodejs/"
+ alias open_ection="cd /Users/此处替换/Documents/B_work/ection/"
 
  # command_help
 
- alias command_help='cd /Users/songbo/Documents/B_Work/command_help'
- alias command_help_git='vim /Users/songbo/Documents/B_Work/command_help/command_help_git.txt'
- alias command_help_screen='vim /Users/songbo/Documents/B_Work/command_help/command_help_screen.txt'
- alias command_help_pod='vim /Users/songbo/Documents/B_Work/command_help/command_help_pod.txt'
+ alias command_help='cd /Users/此处替换/Documents/B_Work/command_help'
+ alias command_help_git='vim /Users/此处替换/Documents/B_Work/command_help/command_help_git.txt'
+ alias command_help_screen='vim /Users/此处替换/Documents/B_Work/command_help/command_help_screen.txt'
+ alias command_help_pod='vim /Users/此处替换/Documents/B_Work/command_help/command_help_pod.txt'
+ alias command_help_hotkey_mac='vim /Users/此处替换/Documents/B_Work/command_help/command_help_hotkey_mac.txt'
+ alias command_help_hotkey_xcode='vim /Users/此处替换/Documents/B_Work/command_help/command_help_hotkey_xcode.txt'
  alias command_history='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
  # files_option
  alias la='ls -a'

@@ -89,10 +89,20 @@ podenv
 podenv versions   
 podenv install --list 
 podenv install 1.2.0        
+podenv global 1.10.1  #设置全局使用版本
 
 #######################安装cocoapods-dependencies##################################
 which gem    查看gem 安转位置gem 是一个用于对 Ruby组件进行打包的 Ruby 打包系统
 gem install cocoapods-dependencies   安转pod依赖查看小工具
 pod dependencies     查看当前目录下项目依赖
 pod dependencies | grep UIC   # 查找命令 匹配 UIC
+
+
+######################cocoapods cache 操作#########################################
+#列出pod 缓存列表
+pod cache list [NAME]
+# 清楚某库缓存
+pod cache clean [NAME
+
+
 

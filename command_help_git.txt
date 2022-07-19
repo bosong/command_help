@@ -127,6 +127,28 @@ git reset --hard <commit>  # 回退版本库和工作区到指定的<commit>。
 回退到上个版本：git reset --hard HEAD^ git reset --hard HEAD~
 回退到上上个版本：git reset --hard HEAD^^ git reset --hard HEAD~1
 以此类推。
+########git submodule########
+
+##添加子仓库
+$ git submodule add <仓库地址> <本地路径>
+$ git submodule add ssh://git@10.2.237.56:23/dennis/sub.git lib
+## 子仓库检出(checkout)
+// 初始化本地配置文件
+$ git submodule init
+
+// 检出父仓库列出的commit
+$ git submodule update
+## git 拉取所有子模块
+git submodule foreach git pull
+
+##更新所有子库
+git submodule foreach --recursive git submodule update
+
+
+##更新子模块
+git submodule update
+git submodule foreach git submodule update
+
 
 ###git分支实战 ##############
 ###Git鼓励大量使用分支：
@@ -241,3 +263,37 @@ $ git  reflog # 找到游离的commit_id
 # 2.根据commit_id 新建一个分支
 git branch brenchName commit_id
 # 3.切换到主分支 合并新建的分支到主分支上
+
+###git 配置相关以及密码相关操作
+# 查看配置
+git config --global --list 
+# vim修改
+vim ~/.gitconfig
+# 去除缓存
+git config --unset-all credential.helper
+# mac 缓存密码 到钥匙串 mac
+git config --global credential.helper osxkeychain
+# windows 缓存密码
+git config --global credential.helper wincred
+
+# 缓存到磁盘
+git config --global credential.helper store
+
+# 解绑缓存 git credential-manager uninstall
+# 重置缓存
+git config --global --unset credential.helper
+git config --system --unset credential.helper
+
+### git代理
+#设置代理
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+#去除代理
+git config --global --unset https.proxy
+git config --global --unset http.proxy
+# 解决github 无法clone 问题 更新github 地址
+参考此文章https://www.cnblogs.com/iupoint/p/14552968.html
+
+
+
+
