@@ -1,246 +1,65 @@
-{\rtf1\ansi\ansicpg936\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset134 STSongti-SC-Regular;\f2\fnil\fcharset0 HelveticaNeue;
-\f3\fnil\fcharset134 PingFangSC-Semibold;\f4\fnil\fcharset134 PingFangSC-Regular;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red135\green135\blue135;\red49\green49\blue49;
-\red255\green255\blue255;\red38\green38\blue38;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c60000\c60000\c60000;\cssrgb\c25098\c25098\c25098;
-\cssrgb\c100000\c100000\c100000;\cssrgb\c20000\c20000\c20000;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
-{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
-{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww19640\viewh17400\viewkind0
-\deftab720
-\pard\pardeftab720\sl960\partightenfactor0
+Xcode常用快捷键
 
-\f0\fs56 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Xcode
-\f1 \'b3\'a3\'d3\'c3\'bf\'ec\'bd\'dd\'bc\'fc
-\f0 \
-\pard\pardeftab720\sl400\partightenfactor0
+⌘——Command ()
+⌃ ——Control
+⌥——Option (alt)
+⇧——Shift
+⇪——Caps Lock
 
-\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\sa400\partightenfactor0
-
-\f2\fs32 \cf4 \cb5 \strokec4 \uc0\u8984 \'97\'97Command (\u63743 )\
-\uc0\u8963  \'97\'97Control\
-\uc0\u8997 \'97\'97Option (alt)\
-\uc0\u8679 \'97\'97Shift\
-\uc0\u8682 \'97\'97Caps Lock\
-\pard\pardeftab720\sl400\partightenfactor0
-
-\f0\fs24 \cf2 \cb1 \strokec2 \
-\pard\pardeftab720\sl480\partightenfactor0
-
-\f3\b\fs28 \cf6 \cb5 \strokec6 1. \'ce\'c4\'bc\'fe\'b2\'d9\'d7\'f7\'cf\'e0\'b9\'d8\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc
-\f4\b0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-\ls1\ilvl0\cf6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + n \'d0\'c2\'bd\'a8\'ce\'c4\'bc\'fe(new file)\cb1 \
-\ls1\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + shift + n \'d0\'c2\'bd\'a8\'b9\'a4\'b3\'cc(new project)\cb1 \
-\ls1\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + o \'b4\'f2\'bf\'aa\'b9\'a4\'b3\'cc(open project)\cb1 \
-\ls1\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + shift + o \'bf\'ec\'cb\'d9\'b4\'f2\'bf\'aa\'b9\'a4\'b3\'cc\'d6\'d0\'b5\'c4\'ce\'c4\'bc\'fe(open quickly)\'a3\'ac\'c0\'e0\'cb\'c6\'d3\'daSpotlight\'b5\'c4\'b9\'a6\'c4\'dc\cb1 \
-\ls1\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 option + command + a \'cf\'f2\'b9\'a4\'b3\'cc\'d6\'d0\'cc\'ed\'bc\'d3\'ce\'c4\'bc\'fe(add file to project)\cb1 \
-\ls1\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 alt + command + w \'b9\'d8\'b1\'d5\'b5\'b1\'c7\'b0\'b9\'a4\'b3\'cc(close project) \'ba\'cdcommand + w\'b5\'c4\'d0\'a7\'b9\'fb\'d2\'bb\'d1\'f9\
-\ls1\ilvl0\cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}
-\f2\fs32 \cf4 \cb5 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec4 command + shift + J\'a0  
-\f4 \'bf\'ec\'cb\'d9\'b6\'a8\'ce\'bb\'b5\'b1\'c7\'b0\'c0\'e0\'d4\'da\'cf\'ee\'c4\'bf\'ce\'c4\'bc\'fe\'d6\'d0\'b5\'c4\'ce\'bb\'d6\'c3
-\fs28 \cf6 \cb1 \strokec6 \
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f3\b\fs36 \cf6 \cb5 2. \'b4\'b0\'bf\'da\'b5\'bc\'ba\'bd\'bf\'ec\'bd\'dd\'bc\'fc
-\f4\b0\fs28 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-\ls2\ilvl0\cf6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + 0 \'c7\'d0\'bb\'bb\'d7\'f3\'b2\'e0\'b5\'bc\'ba\'bd\'b4\'b0\'bf\'da\'b5\'c4\'cf\'d4\'ca\'be\'d2\'fe\'b2\'d8(hide/show Navigator)\cb1 \
-\ls2\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + option + 0 \'c7\'d0\'bb\'bb\'d3\'d2\'b2\'e0\'b9\'a6\'c4\'dc\'c3\'e6\'b0\'e5(hide/show Utilities)\cb1 \
-\ls2\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + shift + y \'c7\'d0\'bb\'bb\'b5\'d7\'b2\'bf\'b5\'f7\'ca\'d4\'c7\'f8\'d3\'f2(hide/show Debug area)\cb1 \
-\ls2\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + 1 ~ 8 \'d4\'da\'b9\'a4\'b3\'cc\'b5\'bc\'ba\'bd\'b4\'b0\'bf\'da\'b5\'c48\'b8\'f6tab\'bc\'e4\'c7\'d0\'bb\'bb\cb1 \
-\ls2\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + option + 1 ~ 4 \'d4\'da\'d3\'d2\'b2\'e0\'b9\'a6\'c4\'dc\'c3\'e6\'b0\'e5\'b5\'c44\'b8\'f6tab\'bc\'e4\'c7\'d0\'bb\'bb\cb1 \
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f3\b\fs36 \cf6 \cb5 3. \'b4\'fa\'c2\'eb\'b1\'e0\'bc\'ad\'c6\'f7\'c0\'ef\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc
-\f4\b0\fs28 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-\ls3\ilvl0\cf6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + \'a1\'fa \'d2\'c6\'b6\'af\'b5\'bd\'d2\'bb\'d0\'d0\'c4\'a9\'ce\'b2\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + delete \'c9\'be\'b3\'fd\'d2\'bb\'d0\'d0\'b4\'fa\'c2\'eb\'a3\'ac\'ba\'cd\'c9\'cf\'d2\'bb\'b8\'f6\'bf\'ec\'bd\'dd\'bc\'fc\'d7\'e9\'ba\'cf\'ca\'b9\'d3\'c3\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + [ \'bb\'f2 ] \'cf\'f2\'c7\'b0\'bb\'f2\'cf\'f2\'ba\'f3\'b5\'f7\'d5\'fb\'b4\'fa\'c2\'eb\'cb\'f5\'bd\'f8\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 control + i \'b8\'f9\'be\'dd\'b5\'b1\'c7\'b0\'d0\'d0\'b4\'fa\'c2\'eb\'cb\'f9\'d4\'da\'ce\'bb\'d6\'c3\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'cb\'f5\'bd\'f8\'a3\'a8\'bf\'c9\'d2\'d4\'cf\'c8command + a\'c8\'ab\'d1\'a1\'c8\'bb\'ba\'f3\'b5\'f7\'d5\'fb\'cb\'f9\'d3\'d0\'b4\'fa\'c2\'eb\'b5\'c4\'cb\'f5\'bd\'f8\'a3\'a9\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + option + [ \'bb\'f2 ] \'bd\'ab\'b4\'fa\'c2\'eb\'c9\'cf\'cf\'c2\'d2\'c6\'b6\'af\'d2\'bb\'d0\'d0\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 control + command + \'a1\'fc \'bb\'f2 \'a1\'fd \'d4\'da.m/.c/.cpp \'ce\'c4\'bc\'fe\'ba\'cd\'cd\'b7\'ce\'c4\'bc\'fe.h\'d6\'ae\'bc\'e4\'c7\'d0\'bb\'bb\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 esc \'bf\'c9\'d2\'d4\'b5\'af\'b3\'f6\'b6\'d4\'d3\'a6\'b5\'c4\'b4\'fa\'c2\'eb\'cc\'e1\'ca\'be\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	8.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 control + command + e \'d6\'d8\'b9\'b9\'b1\'e4\'c1\'bf\'c3\'fb\'a3\'ac\'bd\'ab\'b9\'e2\'b1\'ea\'b7\'c5\'d4\'da\'b1\'e4\'c1\'bf\'c3\'fb\'c9\'cf\'bb\'f2\'d5\'df\'cb\'ab\'bb\'f7\'d1\'a1\'d6\'d0\'d5\'e2\'b8\'f6\'b1\'e4\'c1\'bf\'a3\'ac\'c8\'bb\'ba\'f3\'b0\'b4\'b8\'c3\'bf\'ec\'bd\'dd\'bc\'fc\'a3\'ac\'be\'cd\'bf\'c9\'d2\'d4\'ca\'b5\'cf\'d6\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'cf\'c2\'cb\'f9\'d3\'d0\'d3\'c3\'b5\'bd\'b8\'c3\'b1\'e4\'c1\'bf\'b5\'c4\'b5\'d8\'b7\'bd\'bd\'f8\'d0\'d0\'d0\'de\'b8\'c4\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	9.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + \\ \'cc\'ed\'bc\'d3\'bb\'f2\'d5\'df\'d2\'c6\'b3\'fd\'b6\'cf\'b5\'e3\cb1 \
-\ls3\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	10.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + y \'c7\'d0\'bb\'bb\'b5\'b1\'c7\'b0\'cb\'f9\'d3\'d0\'b5\'c4\'b6\'cf\'b5\'e3\'b5\'c4\'bc\'a4\'bb\'ee\'d7\'b4\'cc\'ac\cb1 \
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f3\b\fs36 \cf6 \cb5 4. storyboard\'d6\'d0\'b5\'c4\'bf\'ec\'bd\'dd\'bc\'fc
-\f4\b0\fs28 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-\ls4\ilvl0\cf6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 option + command + enter \'c7\'d0\'bb\'bb\'b5\'bdAssitant editor\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + enter \'b4\'d3Assitant editor\'c7\'d0\'bb\'bb\'bb\'d8storyboard\'b1\'e0\'bc\'ad\'c6\'f7\'bd\'e7\'c3\'e6\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + -(\'bc\'f5\'ba\'c5\'bc\'fc) \'cb\'f5\'d0\'a1storyboard\'bd\'e7\'c3\'e6\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + shift + =(\'b5\'c8\'ba\'c5\'bc\'fc) \'b7\'c5\'b4\'f3storyboard\'bd\'e7\'c3\'e6\'a3\'ac\'cb\'ab\'bb\'f7ViewControllerScene\'d2\'b2\'bf\'c9\'d2\'d4\'bd\'ab\'c6\'e4\'cb\'f5\'b7\'c5\'b5\'bd\'ba\'cf\'ca\'ca\'b5\'c4\'b4\'f3\'d0\'a1\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + = \'d4\'da\'d1\'a1\'d6\'d0\'bf\'d8\'bc\'fe\'b5\'c4\'c7\'e9\'bf\'f6\'cf\'c2\'b0\'b4\'b8\'c3\'bf\'ec\'bd\'dd\'bc\'fc\'bb\'e1\'b8\'f9\'be\'dd\'bf\'d8\'bc\'fe\'d6\'d0\'b5\'c4\'c4\'da\'c8\'dd(\'c8\'e7UILabel\'a1\'a2UIButton\'d6\'d0\'b5\'c4\'ce\'c4\'b1\'be)\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'bf\'d8\'bc\'fe\'b5\'c4\'b4\'f3\'d0\'a1\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + option + = \'cd\'ac\'d1\'f9\'ca\'c7\'d1\'a1\'d6\'d0\'bf\'d8\'bc\'fe\'b5\'c4\'c7\'e9\'bf\'f6\'cf\'c2\'a3\'ac\'bf\'c9\'d2\'d4\'b8\'f9\'be\'dd\'bf\'d8\'bc\'fe\'b5\'c4\'d4\'bc\'ca\'f8\'b8\'fc\'d0\'c2\'ce\'bb\'d6\'c3(update frame)\cb1 \
-\ls4\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 \'c1\'ed\'cd\'e2\'d4\'dastoryboard\'bd\'e7\'c3\'e6\'cd\'a8\'b9\'fdcommand + shift + o \'cb\'d1\'cb\'f7\'b5\'bd\'b6\'d4\'d3\'a6\'b5\'c4\'ce\'c4\'bc\'fe\'ba\'f3\'a3\'ac\'b0\'b4\'d7\'a1option\'bc\'fc\'cb\'ab\'bb\'f7\'bb\'f2\'d5\'df\'b0\'b4\'bb\'d8\'b3\'b5\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'bf\'c9\'d2\'d4\'d2\'d4Assitant Editor\'b5\'c4\'d0\'ce\'ca\'bd\'d4\'da\'d3\'d2\'b2\'e0\'b4\'f2\'bf\'aa\'b8\'c3\'ce\'c4\'bc\'fe\cb1 \
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f3\b\fs36 \cf6 \cb5 5. Debug\'cf\'e0\'b9\'d8\'bf\'ec\'bd\'dd\'bc\'fc
-\f4\b0\fs28 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-\ls5\ilvl0\cf6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + r \'b1\'e0\'d2\'eb\'b2\'a2\'d4\'cb\'d0\'d0\'b5\'b1\'c7\'b0\'b9\'a4\'b3\'cc\cb1 \
-\ls5\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + b \'bd\'f6\'b1\'e0\'d2\'eb\'b9\'a4\'b3\'cc\cb1 \
-\ls5\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 command + . \'bd\'e1\'ca\'f8\'d4\'cb\'d0\'d0\'d6\'d0\'b5\'c4\'b9\'a4\'b3\'cc\'bb\'f2\'d5\'df\'c8\'a1\'cf\'fb\'b1\'e0\'d2\'eb\'d6\'d0\'b5\'c4\'b9\'a4\'b3\'cc\cb1 \
-\ls5\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 F6 \'b4\'d3\'b6\'cf\'b5\'e3\'b4\'a6\'d6\'b4\'d0\'d0\'cf\'c2\'d2\'bb\'d0\'d0\'b4\'fa\'c2\'eb(stepOver)\cb1 \
-\ls5\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 F7 \'cc\'f8\'b5\'bd\'b5\'b1\'c7\'b0\'b5\'c4\'ba\'af\'ca\'fd\'c4\'da\'b2\'bf\'b5\'f7\'ca\'d4(stepInto)\cb1 \
-\ls5\ilvl0\cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec6 F8 \'b4\'d3\'b5\'b1\'c7\'b0\'ba\'af\'ca\'fd\'d6\'d0\'b7\'b5\'bb\'d8(stepOut)\
-\ls5\ilvl0\cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}
-\f2\fs32 \cf4 \cb5 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec4 command+K 
-\f4 \'c7\'e5\'b3\'fd\'bf\'d8\'d6\'c6\'cc\'a8\'b4\'f2\'d3\'a1\'d0\'c5\'cf\'a2\
-\ls5\ilvl0
-\fs28 \cf6 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	8.	}
-\f2\fs32 \cf4 \cb5 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec4 Command + Shift + K 
-\f4 \'c7\'e5\'b3\'fd\'b9\'a4\'b3\'cc\'bb\'ba\'b4\'e6\
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f3\b\fs36 \cf6 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 6. \'b9\'e2\'b1\'ea\'cf\'e0\'b9\'d8\'bf\'ec\'bd\'dd\'bc\'fc\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-
-\f4\b0\fs28 \cf6 \kerning1\expnd0\expndtw0 	 1.	
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+F: 
-\f1 \'cf\'f2\'d3\'d2\'d2\'bb\'b8\'f6\'d7\'d6\'b7\'fb\'a3\'a8
-\f0 forward
-\f1 \'a3\'a9
-\f0 \
-
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 	 2. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+B: 
-\f1 \'cf\'f2\'d7\'f3\'d2\'bb\'b8\'f6\'d7\'d6\'b7\'fb\'a3\'a8
-\f0 backward
-\f1 \'a3\'a9
-\f0 \
-
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0    3. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+P: 
-\f1 \'c7\'b0\'d2\'bb\'d0\'d0\'a3\'a8
-\f0 previous
-\f1 \'a3\'a9
-\f0 \
-\pard\pardeftab720\sa240\partightenfactor0
-\cf2    
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 4. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+N: 
-\f1 \'ba\'f3\'d2\'bb\'d0\'d0\'a3\'a8
-\f0 next
-\f1 \'a3\'a9
-\f0 \
-   
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 5. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+A: 
-\f1 \'c8\'a5\'d0\'d0\'ca\'d7
-\f0 \
-   
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 6. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+E: 
-\f1 \'b5\'bd\'d0\'d0\'ce\'b2\'a3\'a8
-\f0 end
-\f1 \'a3\'a9
-\f0 \
-   
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 7. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+T: 
-\f1 \'b5\'f7\'bb\'bb\'b9\'e2\'b1\'ea\'c1\'bd\'b1\'df\'b5\'c4\'d7\'d6\'b7\'fb\'a3\'a8
-\f0 transpose
-\f1 \'a3\'a9
-\f0 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl480\sa80\partightenfactor0
-
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0   8 .
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+D: 
-\f1 \'c9\'be\'b3\'fd\'b9\'e2\'b1\'ea\'d3\'d2\'b2\'e0\'d7\'d6\'b7\'fb\'a3\'a8
-\f0 delete
-\f1 \'a3\'a9
-\f0 \
-\pard\pardeftab720\sa240\partightenfactor0
-\cf2   
-\f4 \cf6 \cb5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 9. 
-\f0 \cf2 \cb1 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 control+K: 
-\f1 \'c9\'be\'b3\'fd\'b1\'be\'d0\'d0\'ca\'a3\'d3\'e0\'b5\'c4\'d7\'d6\'b7\'fb\'a3\'a8
-\f0 kill
-\f1 \'a3\'a9
-\f0 \
-
-\f1    \'d5\'fb\'cc\'e5\'ce\'bb\'d2\'c6\'b4\'fa\'c2\'eb
-\f0 :\
-
-\f1    \'d1\'a1\'d6\'d0\'b5\'c4\'b4\'fa\'c2\'eb
-\f0  + command+[ :
-\f1 \'cf\'f2\'d7\'f3\'ce\'bb\'d2\'c6
-\f0 \
-
-\f1    \'d1\'a1\'d6\'d0\'b5\'c4\'b4\'fa\'c2\'eb
-\f0  + command+]: 
-\f1 \'cf\'f2\'d3\'d2\'ce\'bb\'d2\'c6
-\f0 \
-
-\f1    \'d1\'a1\'d6\'d0\'b5\'c4\'b4\'fa\'c2\'eb
-\f0  + command+option+[ :
-\f1 \'cf\'f2\'c9\'cf\'ce\'bb\'d2\'c6
-\f0 \
-
-\f1    \'d1\'a1\'d6\'d0\'b5\'c4\'b4\'fa\'c2\'eb
-\f0  + command+option+]:
-\f1 \'cf\'f2\'cf\'c2\'ce\'bb\'d2\'c6
-\f0\fs24 \
-\pard\pardeftab720\sl480\sa160\partightenfactor0
-
-\f4\fs28 \cf6 \strokec6 \
-}
+1. 文件操作相关的快捷键
+	1.	command + n 新建文件(new file)
+	2.	command + shift + n 新建工程(new project)
+	3.	command + o 打开工程(open project)
+	4.	command + shift + o 快速打开工程中的文件(open quickly)，类似于Spotlight的功能
+	5.	option + command + a 向工程中添加文件(add file to project)
+	6.	alt + command + w 关闭当前工程(close project) 和command + w的效果一样
+	7.	command + shift + J   快速定位当前类在项目文件中的位置
+2. 窗口导航快捷键
+	1.	command + 0 切换左侧导航窗口的显示隐藏(hide/show Navigator)
+	2.	command + option + 0 切换右侧功能面板(hide/show Utilities)
+	3.	command + shift + y 切换底部调试区域(hide/show Debug area)
+	4.	command + 1 ~ 8 在工程导航窗口的8个tab间切换
+	5.	command + option + 1 ~ 4 在右侧功能面板的4个tab间切换
+3. 代码编辑器里的快捷键
+	1.	command + → 移动到一行末尾
+	2.	command + delete 删除一行代码，和上一个快捷键组合使用
+	3.	command + [ 或 ] 向前或向后调整代码缩进
+	4.	control + i 根据当前行代码所在位置自动调整缩进（可以先command + a全选然后调整所有代码的缩进）
+	5.	command + option + [ 或 ] 将代码上下移动一行
+	6.	control + command + ↑ 或 ↓ 在.m/.c/.cpp 文件和头文件.h之间切换
+	7.	esc 可以弹出对应的代码提示
+	8.	control + command + e 重构变量名，将光标放在变量名上或者双击选中这个变量，然后按该快捷键，就可以实现当前文件下所有用到该变量的地方进行修改
+	9.	command + \ 添加或者移除断点
+	10.	command + y 切换当前所有的断点的激活状态
+4. storyboard中的快捷键
+	1.	option + command + enter 切换到Assitant editor
+	2.	command + enter 从Assitant editor切换回storyboard编辑器界面
+	3.	command + -(减号键) 缩小storyboard界面
+	4.	command + shift + =(等号键) 放大storyboard界面，双击ViewControllerScene也可以将其缩放到合适的大小
+	5.	command + = 在选中控件的情况下按该快捷键会根据控件中的内容(如UILabel、UIButton中的文本)自动调整控件的大小
+	6.	command + option + = 同样是选中控件的情况下，可以根据控件的约束更新位置(update frame)
+	7.	另外在storyboard界面通过command + shift + o 搜索到对应的文件后，按住option键双击或者按回车这个文件可以以Assitant Editor的形式在右侧打开该文件
+5. Debug相关快捷键
+	1.	command + r 编译并运行当前工程
+	2.	command + b 仅编译工程
+	3.	command + . 结束运行中的工程或者取消编译中的工程
+	4.	F6 从断点处执行下一行代码(stepOver)
+	5.	F7 跳到当前的函数内部调试(stepInto)
+	6.	F8 从当前函数中返回(stepOut)
+	7.	command+K 清除控制台打印信息
+	8.	Command + Shift + K 清除工程缓存
+6. 光标相关快捷键
+	 1.	control+F: 向右一个字符（forward）
+	 2. control+B: 向左一个字符（backward）
+   3. control+P: 前一行（previous）
+   4. control+N: 后一行（next）
+   5. control+A: 去行首
+   6. control+E: 到行尾（end）
+   7. control+T: 调换光标两边的字符（transpose）
+  8 .control+D: 删除光标右侧字符（delete）
+  9. control+K: 删除本行剩余的字符（kill）
+   整体位移代码:
+   选中的代码 + command+[ :向左位移
+   选中的代码 + command+]: 向右位移
+   选中的代码 + command+option+[ :向上位移
+   选中的代码 + command+option+]:向下位移
