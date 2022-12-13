@@ -1,0 +1,122 @@
+###########常用node命令###########################
+
+##########安装node##########
+###验证是否安装node
+$node -v
+$npm -v
+
+###npm node package manager , Node 的包管理器
+###安装 包
+# 安装到当前目录
+$ npm install <包名> #出现error network 重新安装
+
+###搜索包
+$npm search <包名>
+
+###安装指定版本在cmd中:
+
+$ npm install <包名>@版本号
+$ npm install jquery@1.12.4
+
+###查看包的版本信息
+$ npm list <包名>
+###查看安装的包列表
+$npm ls
+###更新包
+$ npm update <包名>
+###卸载包
+$ npm uninstall jquery
+###init 初始化
+npm init 会生成一个packagejson的文件，项目的配置信息
+
+$ npm init
+{
+  "name": "day06", //项目名
+  "version": "1.0.0", //版本号
+  "description": "this is a npm project", //项目的描述
+  "main": "index.js", //程序的入口文件
+  "dependencies": { //项目依赖的包!!!重要的
+    "jquery": "^1.12.4"
+    "zepto": "^1.2.0"
+  },
+  "devDependencies": {}, //开发阶段依赖的包!!!重要的
+  "scripts": { //命令
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ //关键词
+    "npm"
+  ],
+  "author": "guanqi", //作者
+  "license": "ISC" //协议
+}
+###安装并添加依赖
+$ npm install <包名> --save 会将当前目录下的安装包，并将包的信息， 添加到package.json中的dependencies选项中
+
+$ npm install <包名> --save-dev安装开发阶段用的工具包，并不是项目必须有的。这个命令会将包安装到当前目录下的安装包，并将包的版本信息， 添加到package.json中的devDependencies选项中
+
+###全局安装
+$ npm install <包> -g , -g代表全局安装，不会在package.json中看到
+
+###安装包
+$ bower install <包名> --save,在当前目录安装包，并将版本信息添加到bower.json中
+
+$ bower install <包名>@版本号，安装指定的版本号
+
+###查看包的信息
+$ bower info <包名> 查看包的详细信息
+
+###搜索包
+$ bower search <包名>
+
+###包列表
+$ bower list
+
+###卸载包
+$ bower uninstall <包名>
+
+###########常用node版本虚拟环境 NVM命令###########################
+
+### 安装 nvm
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+安装完后 根据命令行工具不同添加环境变量 再执行不同命令
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_complet
+bash: source ~/.bashrc
+zsh: source ~/.zshrc
+
+### 使用nvm 安装node
+
+##To download, compile, and install the latest release of node, do this:
+
+$ nvm install node # "node" is an alias for the latest version
+
+##To install a specific version of node:
+
+$ nvm install 14.7.0 # or 16.3.0, 12.22.1, etc
+
+##The first version installed becomes the default. New shells will start with the default version of node (e.g., nvm alias default).
+##You can list available versions using ls-remote:
+
+$ nvm ls-remote
+##And then in any new shell just use the installed version:
+
+$ nvm use node
+##Or you can just run it:
+
+$ nvm run node --version
+##Or, you can run any arbitrary command in a subshell with the desired version of node:
+
+$ nvm exec 4.2 node --version
+##You can also get the path to the executable to where it was installed:
+
+$ nvm which 12.22
+
+###Listing Versions
+##If you want to see what versions are installed:
+
+$ nvm ls
+##If you want to see what versions are available to install:
+
+$ nvm ls-remote
